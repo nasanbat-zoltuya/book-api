@@ -23,7 +23,7 @@ public class BookController {
 
     @GetMapping("/version")
     public Map<String, String> version() {
-        return Map.of("app", "book-api", "version", version, "message", "Hello GitOps v1");
+        return Map.of("app", "book-api", "version", version, "message", "Hello GitOps v2");
     }
 
     @GetMapping("/books")
